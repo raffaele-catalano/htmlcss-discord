@@ -55,7 +55,7 @@ header{
   flex-wrap: wrap;
   align-content: center;
   height: 100px;
-  background-color: #ADD8E6;
+  background-color: #255EE9;
 }
 
 header .h-container{
@@ -65,7 +65,7 @@ header .h-container{
   width: 70%;
   height: 60px;
   margin: 0 auto;
-  background-color: #DAA520;
+  /* background-color: #DAA520; */
 }
 
 header .menu ul{
@@ -79,6 +79,19 @@ header .menu ul li{
 
 header .menu ul li a{
   text-decoration: none;
+  color: white;
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
+}
+
+header .login a {
+  padding: 12px;
+  background-color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 .jumbotron{
@@ -86,7 +99,8 @@ header .menu ul li a{
   justify-content: center;
   align-items: center;
   height: 500px;
-  background-color: #00008B;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
 }
 
 .jumbotron .box-content{
