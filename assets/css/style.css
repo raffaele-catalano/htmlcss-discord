@@ -50,6 +50,19 @@ li {
   height: 600px;
 }
 
+.filter-gray {
+  filter: invert(97%) sepia(3%) saturate(232%) hue-rotate(295deg) brightness(116%) contrast(93%);
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.filter-gray-flipped {
+  filter: invert(97%) sepia(3%) saturate(232%) hue-rotate(295deg) brightness(116%) contrast(93%);
+  width: 100%;
+  margin-bottom: -10px;
+  transform: scale(-1, -1);
+}
+
 .dark-bg {
   display: flex;
   width: 70%;
@@ -59,14 +72,6 @@ li {
 .grey-bg {
   background-color: #F6F6F6;
 }
-
-.border {
-  border: 2px dashed black;
-}
-
-/* .border-white {
-  border: 2px dashed white;
-} */
 
 /*HEADER*/
 header{
